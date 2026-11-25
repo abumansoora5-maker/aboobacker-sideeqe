@@ -1,0 +1,761 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aboobacker Sideeqe - Creative Digital Marketer, Graphic Designer and Video Editor. Premium portfolio showcasing digital marketing, graphic design, and video editing work.">
+  <meta name="keywords" content="Aboobacker Sideeqe, Digital Marketer, Graphic Designer, Video Editor, Portfolio, Creative">
+  <meta name="author" content="Aboobacker Sideeqe">
+  <meta property="og:title" content="Aboobacker Sideeqe | Creative Digital Marketer & Visual Artist">
+  <meta property="og:description" content="Designing ideas. Editing stories. Growing brands.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#05080f">
+  <title>Aboobacker Sideeqe | Creative Digital Marketer & Visual Artist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress__bar" id="scrollProgress"></div>
+  </div>
+
+  <div class="ambient ambient--a" aria-hidden="true"></div>
+  <div class="ambient ambient--b" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav-wrap" id="navWrap">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a href="#hero" class="nav__logo" aria-label="Aboobacker Sideeqe home">
+        <span class="nav__logo-mark">AS</span><span class="nav__logo-dot">.</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav__menu" id="navMenu">
+        <ul class="nav__links">
+          <li><a href="#hero" class="nav__link active" data-nav>Home</a></li>
+          <li><a href="#about" class="nav__link" data-nav>About</a></li>
+          <li><a href="#skills" class="nav__link" data-nav>Skills</a></li>
+          <li><a href="#works" class="nav__link" data-nav>Works</a></li>
+          <li><a href="#contact" class="nav__link" data-nav>Contact</a></li>
+        </ul>
+        <a href="https://wa.me/917902392766?text=Hi%20Aboobacker%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." class="btn btn--primary btn--sm nav__cta" target="_blank" rel="noopener noreferrer">
+          <span>LET'S TALK</span>
+          <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero section" id="hero">
+      <div class="hero__grid-bg" aria-hidden="true"></div>
+      <div class="container hero__container">
+        <div class="hero__content">
+          <p class="eyebrow hero__eyebrow">
+            <span class="eyebrow__line"></span>
+            HEY, I'M ABOOBACKER SIDEQEE
+          </p>
+
+          <h1 class="hero__title">
+            <span class="hero__title-line"><span class="hero__title-inner">CREATIVE</span></span>
+            <span class="hero__title-line"><span class="hero__title-inner">DIGITAL</span></span>
+            <span class="hero__title-line"><span class="hero__title-inner hero__title-inner--accent">MARKETER</span></span>
+            <span class="hero__title-line"><span class="hero__title-inner">&amp; VISUAL ARTIST</span></span>
+          </h1>
+
+          <div class="hero__rotating" aria-live="polite">
+            <span class="hero__rotating-label">I specialize in</span>
+            <span class="hero__rotating-text" id="rotatingText">DESIGNING IDEAS.</span>
+          </div>
+
+          <p class="hero__desc">
+            I turn ideas into impactful visuals, engaging videos and digital experiences that help brands stand out.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#works" class="btn btn--primary magnetic" data-magnetic>
+              <span>Explore My Work</span>
+              <i data-lucide="arrow-down-right" aria-hidden="true"></i>
+            </a>
+            <a href="https://wa.me/917902392766?text=Hi%20Aboobacker%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." class="btn btn--ghost magnetic" data-magnetic target="_blank" rel="noopener noreferrer">
+              <span>Let's Work Together</span>
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="hero__availability">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>AVAILABLE FOR FREELANCE PROJECTS</span>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__image-wrap">
+            <div class="hero__ring hero__ring--outer" aria-hidden="true"></div>
+            <div class="hero__ring hero__ring--inner" aria-hidden="true"></div>
+            <div class="hero__glow" aria-hidden="true"></div>
+            <div class="hero__frame">
+              <!-- Replace assets/images/aboobacker-sideeqe.jpg with the real uploaded profile photo -->
+              <img src="assets/images/profile-placeholder.svg" alt="Portrait of Aboobacker Sideeqe" class="hero__image" id="heroImage" width="640" height="800" loading="eager" fetchpriority="high" onerror="this.onerror=null;this.src='assets/images/profile-placeholder.svg';">
+              <div class="hero__frame-border" aria-hidden="true"></div>
+            </div>
+            <div class="hero__float-card hero__float-card--top">
+              <i data-lucide="palette" aria-hidden="true"></i>
+              <div>
+                <strong>Visual Design</strong>
+                <span>Creative &amp; Strategic</span>
+              </div>
+            </div>
+            <div class="hero__float-card hero__float-card--bottom">
+              <i data-lucide="clapperboard" aria-hidden="true"></i>
+              <div>
+                <strong>Video Editing</strong>
+                <span>Stories that engage</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about section">
+        <span>SCROLL</span>
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section section--dark" id="about">
+      <div class="container about">
+        <div class="about__visual reveal">
+          <div class="about__image-card">
+            <div class="about__image-glow" aria-hidden="true"></div>
+            <img src="assets/images/profile-placeholder.svg" alt="Aboobacker Sideeqe" class="about__image" width="640" height="800" loading="lazy" onerror="this.onerror=null;this.src='assets/images/profile-placeholder.svg';">
+            <div class="about__image-overlay" aria-hidden="true"></div>
+            <div class="about__stat">
+              <span class="about__stat-icon"><i data-lucide="sparkles" aria-hidden="true"></i></span>
+              <div>
+                <strong>Creative Mindset</strong>
+                <span>Strategy meets visuals</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__content reveal">
+          <p class="eyebrow"><span class="eyebrow__line"></span>ABOUT ME</p>
+          <h2 class="section__title">Crafting digital <span class="text-accent">experiences</span> with purpose.</h2>
+          <div class="about__text">
+            <p>I'm Aboobacker Sideeqe, a creative digital marketer with a passion for graphic design, video editing and digital creativity.</p>
+            <p>I enjoy transforming ideas into visually engaging designs, creating impactful video content and helping brands build a stronger digital presence.</p>
+            <p>My goal is to combine creativity, strategy and technology to create meaningful digital experiences.</p>
+          </div>
+          <div class="about__details">
+            <div class="about__detail">
+              <span class="about__detail-label">Name</span>
+              <span class="about__detail-value">Aboobacker Sideeqe</span>
+            </div>
+            <div class="about__detail">
+              <span class="about__detail-label">Focus</span>
+              <span class="about__detail-value">Marketing, Design &amp; Video</span>
+            </div>
+            <div class="about__detail">
+              <span class="about__detail-label">Availability</span>
+              <span class="about__detail-value text-accent">Open for freelance</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--ghost magnetic" data-magnetic>
+            <span>Get In Touch</span>
+            <i data-lucide="arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow eyebrow--center"><span class="eyebrow__line"></span>MY SKILLS<span class="eyebrow__line"></span></p>
+          <h2 class="section__title">Expertise across <span class="text-accent">creative disciplines</span>.</h2>
+          <p class="section__subtitle">A blend of marketing strategy, visual design, and cinematic editing to help brands communicate with impact.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-card__top">
+              <div class="skill-card__icon"><i data-lucide="trending-up" aria-hidden="true"></i></div>
+              <span class="skill-card__index">01</span>
+            </div>
+            <h3 class="skill-card__title">Digital Marketing</h3>
+            <p class="skill-card__desc">Building brand visibility through strategic, audience-focused digital efforts.</p>
+            <ul class="skill-card__list">
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Social Media Marketing</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Content Strategy</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Brand Promotion</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Digital Content Creation</span></li>
+            </ul>
+            <div class="skill-card__meter" aria-hidden="true"><span style="--level:92%"></span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__top">
+              <div class="skill-card__icon"><i data-lucide="pen-tool" aria-hidden="true"></i></div>
+              <span class="skill-card__index">02</span>
+            </div>
+            <h3 class="skill-card__title">Graphic Design</h3>
+            <p class="skill-card__desc">Creating visual identities and creatives that capture attention and communicate clearly.</p>
+            <ul class="skill-card__list">
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Social Media Posters</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Branding &amp; Visual Identity</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Advertisement Designs</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Promotional Creatives</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Poster Design</span></li>
+            </ul>
+            <div class="skill-card__meter" aria-hidden="true"><span style="--level:94%"></span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__top">
+              <div class="skill-card__icon"><i data-lucide="film" aria-hidden="true"></i></div>
+              <span class="skill-card__index">03</span>
+            </div>
+            <h3 class="skill-card__title">Video Editing</h3>
+            <p class="skill-card__desc">Transforming footage into engaging stories tailored for modern digital platforms.</p>
+            <ul class="skill-card__list">
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Reels Editing</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Promotional Videos</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Social Media Videos</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Creative Video Editing</span></li>
+              <li><i data-lucide="check" aria-hidden="true"></i><span>Motion-Based Content</span></li>
+            </ul>
+            <div class="skill-card__meter" aria-hidden="true"><span style="--level:90%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>    <!-- Graphic Design Portfolio -->
+    <section class="section section--dark" id="works">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow"><span class="eyebrow__line"></span>FEATURED WORK</p>
+          <h2 class="section__title">Selected <span class="text-accent">creative works</span>.</h2>
+          <p class="section__subtitle section__subtitle--left">A curated showcase of design, video, and digital marketing projects. Replace these placeholders with your real work anytime.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Project filters">
+          <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">ALL</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="graphic">GRAPHIC DESIGN</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="video">VIDEO EDITING</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="marketing">DIGITAL MARKETING</button>
+        </div>
+
+        <div class="works-grid" id="worksGrid">
+          <!-- Graphic Design -->
+          <article class="work-card work-card--wide reveal" data-category="graphic">
+            <div class="work-card__media">
+              <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1200&q=80" alt="Social media poster design placeholder" loading="lazy" width="1200" height="800">
+              <div class="work-card__overlay">
+                <button class="work-card__view" data-lightbox="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1600&q=80" data-title="Social Media Campaign Poster" data-cat="Graphic Design / Social Media Posters">
+                  <i data-lucide="expand" aria-hidden="true"></i><span>View Project</span>
+                </button>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Graphic Design</span>
+              <h3 class="work-card__title">Social Media Campaign Poster</h3>
+              <p class="work-card__meta">Social Media Posters</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="graphic">
+            <div class="work-card__media">
+              <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&w=900&q=80" alt="Brand identity design placeholder" loading="lazy" width="900" height="1100">
+              <div class="work-card__overlay">
+                <button class="work-card__view" data-lightbox="https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&w=1400&q=80" data-title="Brand Identity Concept" data-cat="Graphic Design / Brand Identity">
+                  <i data-lucide="expand" aria-hidden="true"></i><span>View Project</span>
+                </button>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Graphic Design</span>
+              <h3 class="work-card__title">Brand Identity Concept</h3>
+              <p class="work-card__meta">Brand Identity</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="graphic">
+            <div class="work-card__media">
+              <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=900&q=80" alt="Advertising creative placeholder" loading="lazy" width="900" height="1100">
+              <div class="work-card__overlay">
+                <button class="work-card__view" data-lightbox="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1400&q=80" data-title="Advertising Creative" data-cat="Graphic Design / Advertising Creatives">
+                  <i data-lucide="expand" aria-hidden="true"></i><span>View Project</span>
+                </button>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Graphic Design</span>
+              <h3 class="work-card__title">Advertising Creative</h3>
+              <p class="work-card__meta">Advertising Creatives</p>
+            </div>
+          </article>
+
+          <article class="work-card work-card--wide reveal" data-category="graphic">
+            <div class="work-card__media">
+              <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1200&q=80" alt="Promotional design placeholder" loading="lazy" width="1200" height="800">
+              <div class="work-card__overlay">
+                <button class="work-card__view" data-lightbox="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1600&q=80" data-title="Promotional Design Series" data-cat="Graphic Design / Promotional Designs">
+                  <i data-lucide="expand" aria-hidden="true"></i><span>View Project</span>
+                </button>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Graphic Design</span>
+              <h3 class="work-card__title">Promotional Design Series</h3>
+              <p class="work-card__meta">Promotional Designs</p>
+            </div>
+          </article>
+
+          <!-- Video -->
+          <article class="work-card reveal" data-category="video">
+            <div class="work-card__media work-card__media--video">
+              <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=900&q=80" alt="Instagram reel editing placeholder" loading="lazy" width="900" height="1100">
+              <div class="work-card__overlay work-card__overlay--visible">
+                <button class="work-card__play" data-video-title="Instagram Reel Edit" data-video-cat="Video Editing / Instagram Reels" aria-label="Play Instagram Reel Edit preview">
+                  <span class="play-btn"><i data-lucide="play" aria-hidden="true"></i></span>
+                  <span>Play Preview</span>
+                </button>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Video Editing</span>
+              <h3 class="work-card__title">Instagram Reel Edit</h3>
+              <p class="work-card__meta">Instagram Reels</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="video">
+            <div class="work-card__media work-card__media--video">
+              <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=900&q=80" alt="Promotional video placeholder" loading="lazy" width="900" height="1100">
+              <div class="work-card__overlay work-card__overlay--visible">
+                <button class="work-card__play" data-video-title="Brand Promotional Video" data-video-cat="Video Editing / Promotional Videos" aria-label="Play Brand Promotional Video preview">
+                  <span class="play-btn"><i data-lucide="play" aria-hidden="true"></i></span>
+                  <span>Play Preview</span>
+                </button>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Video Editing</span>
+              <h3 class="work-card__title">Brand Promotional Video</h3>
+              <p class="work-card__meta">Promotional Videos</p>
+            </div>
+          </article>
+
+          <!-- Marketing -->
+          <article class="work-card work-card--wide reveal" data-category="marketing">
+            <div class="work-card__media">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Digital marketing campaign placeholder" loading="lazy" width="1200" height="800">
+              <div class="work-card__overlay">
+                <button class="work-card__view" data-lightbox="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80" data-title="Digital Campaign Strategy" data-cat="Digital Marketing / Campaign">
+                  <i data-lucide="expand" aria-hidden="true"></i><span>View Project</span>
+                </button>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Digital Marketing</span>
+              <h3 class="work-card__title">Digital Campaign Strategy</h3>
+              <p class="work-card__meta">Content &amp; Brand Promotion</p>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="marketing">
+            <div class="work-card__media">
+              <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=900&q=80" alt="Social media content planning placeholder" loading="lazy" width="900" height="1100">
+              <div class="work-card__overlay">
+                <button class="work-card__view" data-lightbox="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=1400&q=80" data-title="Social Media Content Plan" data-cat="Digital Marketing / Social Media Content">
+                  <i data-lucide="expand" aria-hidden="true"></i><span>View Project</span>
+                </button>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <span class="work-card__cat">Digital Marketing</span>
+              <h3 class="work-card__title">Social Media Content Plan</h3>
+              <p class="work-card__meta">Social Media Content</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Graphic Design Gallery -->
+    <section class="section" id="graphic-design">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow eyebrow--center"><span class="eyebrow__line"></span>GRAPHIC DESIGN WORKS<span class="eyebrow__line"></span></p>
+          <h2 class="section__title">Visuals built to <span class="text-accent">capture attention</span>.</h2>
+          <p class="section__subtitle">A dedicated gallery for posters, branding, advertising creatives, and promotional design work.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=900&q=80" alt="Social media poster project placeholder" loading="lazy" width="900" height="1125">
+            <figcaption class="gallery__caption">
+              <span class="gallery__cat">Social Media Posters</span>
+              <strong>Campaign Poster Design</strong>
+              <button class="gallery__open" data-lightbox="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1600&q=80" data-title="Campaign Poster Design" data-cat="Social Media Posters"><i data-lucide="plus" aria-hidden="true"></i><span>View Project</span></button>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&w=900&q=80" alt="Brand identity project placeholder" loading="lazy" width="900" height="700">
+            <figcaption class="gallery__caption">
+              <span class="gallery__cat">Brand Identity</span>
+              <strong>Visual Identity System</strong>
+              <button class="gallery__open" data-lightbox="https://images.unsplash.com/photo-1634942537034-2531766767d1?auto=format&fit=crop&w=1600&q=80" data-title="Visual Identity System" data-cat="Brand Identity"><i data-lucide="plus" aria-hidden="true"></i><span>View Project</span></button>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=900&q=80" alt="Advertising creative project placeholder" loading="lazy" width="900" height="1125">
+            <figcaption class="gallery__caption">
+              <span class="gallery__cat">Advertising Creatives</span>
+              <strong>Ad Creative Concept</strong>
+              <button class="gallery__open" data-lightbox="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1600&q=80" data-title="Ad Creative Concept" data-cat="Advertising Creatives"><i data-lucide="plus" aria-hidden="true"></i><span>View Project</span></button>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=900&q=80" alt="Promotional design project placeholder" loading="lazy" width="900" height="700">
+            <figcaption class="gallery__caption">
+              <span class="gallery__cat">Promotional Designs</span>
+              <strong>Promotion Visual Kit</strong>
+              <button class="gallery__open" data-lightbox="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1600&q=80" data-title="Promotion Visual Kit" data-cat="Promotional Designs"><i data-lucide="plus" aria-hidden="true"></i><span>View Project</span></button>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=900&q=80" alt="Typography design project placeholder" loading="lazy" width="900" height="1125">
+            <figcaption class="gallery__caption">
+              <span class="gallery__cat">Typography Designs</span>
+              <strong>Typography Poster</strong>
+              <button class="gallery__open" data-lightbox="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1600&q=80" data-title="Typography Poster" data-cat="Typography Designs"><i data-lucide="plus" aria-hidden="true"></i><span>View Project</span></button>
+            </figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=900&q=80" alt="Campaign poster project placeholder" loading="lazy" width="900" height="700">
+            <figcaption class="gallery__caption">
+              <span class="gallery__cat">Campaign Posters</span>
+              <strong>Creative Campaign Poster</strong>
+              <button class="gallery__open" data-lightbox="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1600&q=80" data-title="Creative Campaign Poster" data-cat="Campaign Posters"><i data-lucide="plus" aria-hidden="true"></i><span>View Project</span></button>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="placeholder-note reveal"><i data-lucide="info" aria-hidden="true"></i>Placeholder visuals shown. Replace image URLs or local files with your real graphic design projects.</p>
+      </div>
+    </section>
+    <!-- Video Portfolio -->
+    <section class="section section--dark" id="video-editing">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow"><span class="eyebrow__line"></span>VIDEO EDITING</p>
+          <h2 class="section__title">Cinematic edits with <span class="text-accent">story and rhythm</span>.</h2>
+          <p class="section__subtitle section__subtitle--left">A dedicated space for reels, promotional videos, brand videos, and creative edits. Add your real video files or embeds later.</p>
+        </div>
+
+        <div class="video-grid">
+          <article class="video-card reveal">
+            <div class="video-card__media">
+              <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1000&q=80" alt="Instagram reels project thumbnail" loading="lazy" width="1000" height="700">
+              <button class="video-card__play" data-video-title="Instagram Reels Pack" data-video-cat="Instagram Reels" aria-label="Open Instagram Reels Pack preview">
+                <span class="play-btn play-btn--lg"><i data-lucide="play" aria-hidden="true"></i></span>
+              </button>
+              <span class="video-card__badge">Reels</span>
+            </div>
+            <div class="video-card__body">
+              <span class="video-card__cat">Instagram Reels</span>
+              <h3>Instagram Reels Pack</h3>
+              <p>Fast-paced social edits designed for engagement.</p>
+            </div>
+          </article>
+
+          <article class="video-card reveal">
+            <div class="video-card__media">
+              <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1000&q=80" alt="Promotional video project thumbnail" loading="lazy" width="1000" height="700">
+              <button class="video-card__play" data-video-title="Promotional Brand Video" data-video-cat="Promotional Videos" aria-label="Open Promotional Brand Video preview">
+                <span class="play-btn play-btn--lg"><i data-lucide="play" aria-hidden="true"></i></span>
+              </button>
+              <span class="video-card__badge">Promo</span>
+            </div>
+            <div class="video-card__body">
+              <span class="video-card__cat">Promotional Videos</span>
+              <h3>Promotional Brand Video</h3>
+              <p>Polished promotional storytelling for brands.</p>
+            </div>
+          </article>
+
+          <article class="video-card reveal">
+            <div class="video-card__media">
+              <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1000&q=80" alt="Brand video project thumbnail" loading="lazy" width="1000" height="700">
+              <button class="video-card__play" data-video-title="Brand Story Edit" data-video-cat="Brand Videos" aria-label="Open Brand Story Edit preview">
+                <span class="play-btn play-btn--lg"><i data-lucide="play" aria-hidden="true"></i></span>
+              </button>
+              <span class="video-card__badge">Brand</span>
+            </div>
+            <div class="video-card__body">
+              <span class="video-card__cat">Brand Videos</span>
+              <h3>Brand Story Edit</h3>
+              <p>Visual narratives that reflect brand identity.</p>
+            </div>
+          </article>
+
+          <article class="video-card reveal">
+            <div class="video-card__media">
+              <img src="https://images.unsplash.com/photo-1579632652768-6cb9dcf85912?auto=format&fit=crop&w=1000&q=80" alt="Creative edit project thumbnail" loading="lazy" width="1000" height="700">
+              <button class="video-card__play" data-video-title="Creative Motion Edit" data-video-cat="Creative Edits" aria-label="Open Creative Motion Edit preview">
+                <span class="play-btn play-btn--lg"><i data-lucide="play" aria-hidden="true"></i></span>
+              </button>
+              <span class="video-card__badge">Creative</span>
+            </div>
+            <div class="video-card__body">
+              <span class="video-card__cat">Creative Edits</span>
+              <h3>Creative Motion Edit</h3>
+              <p>Dynamic edits with creative pacing and style.</p>
+            </div>
+          </article>
+        </div>
+        <p class="placeholder-note reveal"><i data-lucide="info" aria-hidden="true"></i>Video previews open a modal placeholder. Connect real videos by adding <code>data-video-src</code> to each play button.</p>
+      </div>
+    </section>
+    <!-- Services / What I Do -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow eyebrow--center"><span class="eyebrow__line"></span>WHAT I DO<span class="eyebrow__line"></span></p>
+          <h2 class="section__title">Services designed for <span class="text-accent">brand growth</span>.</h2>
+          <p class="section__subtitle">Creative and strategic services that help businesses communicate, engage, and stand out in the digital space.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-card__icon"><i data-lucide="megaphone" aria-hidden="true"></i></div>
+            <h3>Digital Marketing</h3>
+            <p>Help businesses build visibility and grow their online presence.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon"><i data-lucide="share-2" aria-hidden="true"></i></div>
+            <h3>Social Media Content</h3>
+            <p>Create engaging content that connects with audiences.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon"><i data-lucide="palette" aria-hidden="true"></i></div>
+            <h3>Graphic Design</h3>
+            <p>Design visually powerful creatives for brands and businesses.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon"><i data-lucide="scissors" aria-hidden="true"></i></div>
+            <h3>Video Editing</h3>
+            <p>Turn raw footage into engaging and impactful videos.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon"><i data-lucide="rocket" aria-hidden="true"></i></div>
+            <h3>Brand Promotion</h3>
+            <p>Create creative promotional content for business growth.</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon"><i data-lucide="lightbulb" aria-hidden="true"></i></div>
+            <h3>Creative Strategy</h3>
+            <p>Combine creativity and digital strategy to make content stand out.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section section--dark" id="process">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow eyebrow--center"><span class="eyebrow__line"></span>CREATIVE PROCESS<span class="eyebrow__line"></span></p>
+          <h2 class="section__title">From idea to <span class="text-accent">impactful delivery</span>.</h2>
+          <p class="section__subtitle">A clear, creative workflow that keeps every project intentional, polished, and ready for the digital world.</p>
+        </div>
+
+        <div class="process">
+          <div class="process__line" aria-hidden="true"><span class="process__line-fill" id="processLine"></span></div>
+          <article class="process__step reveal">
+            <span class="process__num">01</span>
+            <h3>DISCOVER</h3>
+            <p>Understand the brand, goals and audience.</p>
+          </article>
+          <article class="process__step reveal">
+            <span class="process__num">02</span>
+            <h3>PLAN</h3>
+            <p>Develop ideas and creative direction.</p>
+          </article>
+          <article class="process__step reveal">
+            <span class="process__num">03</span>
+            <h3>CREATE</h3>
+            <p>Design graphics and edit engaging video content.</p>
+          </article>
+          <article class="process__step reveal">
+            <span class="process__num">04</span>
+            <h3>DELIVER</h3>
+            <p>Deliver polished creative work ready for digital platforms.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__intro reveal">
+          <p class="eyebrow"><span class="eyebrow__line"></span>CONTACT</p>
+          <h2 class="section__title">LET'S CREATE <span class="text-accent">SOMETHING AMAZING.</span></h2>
+          <p class="contact__lead">Have an idea, a brand or a project in mind? Let's turn it into something creative.</p>
+
+          <div class="contact__channels">
+            <a href="https://wa.me/917902392766?text=Hi%20Aboobacker%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." class="channel-card channel-card--wa magnetic" data-magnetic target="_blank" rel="noopener noreferrer">
+              <div class="channel-card__icon"><i data-lucide="message-circle" aria-hidden="true"></i></div>
+              <div class="channel-card__body">
+                <strong>CHAT WITH ME ON WHATSAPP</strong>
+                <span>+91 7902392766</span>
+              </div>
+              <i data-lucide="arrow-up-right" class="channel-card__arrow" aria-hidden="true"></i>
+            </a>
+
+            <div class="channel-card">
+              <div class="channel-card__icon"><i data-lucide="mail" aria-hidden="true"></i></div>
+              <div class="channel-card__body">
+                <strong>Email</strong>
+                <span id="emailText">your-email@example.com</span>
+              </div>
+              <span class="channel-card__tag">Placeholder</span>
+            </div>
+
+            <div class="channel-card">
+              <div class="channel-card__icon"><i data-lucide="instagram" aria-hidden="true"></i></div>
+              <div class="channel-card__body">
+                <strong>Instagram</strong>
+                <span>@your-instagram-handle</span>
+              </div>
+              <span class="channel-card__tag">Placeholder</span>
+            </div>
+          </div>
+
+          <div class="contact__copy">
+            <span class="contact__copy-label">WhatsApp Number</span>
+            <div class="contact__copy-row">
+              <code id="phoneNumber">+91 7902392766</code>
+              <button class="copy-btn" id="copyPhone" type="button" aria-label="Copy WhatsApp number">
+                <i data-lucide="copy" aria-hidden="true"></i><span>Copy</span>
+              </button>
+            </div>
+            <p class="copy-feedback" id="copyFeedback" aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required placeholder="Enter your name">
+              <p class="field__error" id="err-name" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" autocomplete="email" required placeholder="Enter your email">
+              <p class="field__error" id="err-email" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+              <p class="field__error" id="err-message" aria-live="polite"></p>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full magnetic" data-magnetic>
+              <span>Send Message</span>
+              <i data-lucide="send" aria-hidden="true"></i>
+            </button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+            <p class="form-note">This form opens WhatsApp with your message so you can reach Aboobacker directly. No email address is fabricated.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo">AS<span>.</span></a>
+        <p class="footer__name">ABOOBACKER SIDEQEE</p>
+        <p class="footer__role">Digital Marketer â€¢ Graphic Designer â€¢ Video Editor</p>
+      </div>
+
+      <div class="footer__social">
+        <a href="https://wa.me/917902392766?text=Hi%20Aboobacker%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." class="social-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i data-lucide="message-circle" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="Instagram placeholder" title="Add your Instagram URL">
+          <i data-lucide="instagram" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn placeholder" title="Add your LinkedIn URL">
+          <i data-lucide="linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="#" class="social-link" aria-label="Behance placeholder" title="Add your Behance URL">
+          <i data-lucide="palette" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="year"></span> Aboobacker Sideeqe. All rights reserved.</p>
+        <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+          <span>Back to top</span>
+          <i data-lucide="arrow-up" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="modal" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Project preview">
+    <div class="modal__backdrop" data-close="lightbox"></div>
+    <div class="modal__dialog modal__dialog--image">
+      <button class="modal__close" data-close="lightbox" aria-label="Close preview"><i data-lucide="x" aria-hidden="true"></i></button>
+      <img src="" alt="" class="modal__image" id="lightboxImg">
+      <div class="modal__caption">
+        <span class="modal__cat" id="lightboxCat"></span>
+        <h3 class="modal__title" id="lightboxTitle"></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Video preview">
+    <div class="modal__backdrop" data-close="videoModal"></div>
+    <div class="modal__dialog modal__dialog--video">
+      <button class="modal__close" data-close="videoModal" aria-label="Close video"><i data-lucide="x" aria-hidden="true"></i></button>
+      <div class="modal__video-wrap">
+        <div class="modal__video-placeholder" id="videoPlaceholder">
+          <div class="modal__video-placeholder-inner">
+            <span class="play-btn play-btn--lg"><i data-lucide="play" aria-hidden="true"></i></span>
+            <h3 id="videoModalTitle">Video Preview</h3>
+            <p id="videoModalCat">Add your real video by setting <code>data-video-src</code> on this project card.</p>
+            <p class="modal__video-hint">Supported: local MP4 file path or embeddable video URL.</p>
+          </div>
+        </div>
+        <iframe id="videoFrame" class="modal__iframe" title="Video player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen hidden></iframe>
+        <video id="videoPlayer" class="modal__player" controls playsinline hidden></video>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lucide@0.462.0/dist/umd/lucide.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
